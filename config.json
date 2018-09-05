@@ -1,0 +1,31 @@
+{
+    "product_name": "TopDFM",
+    "product_version": "6.4",
+    "product_publisher": "TopLinker, Inc.",
+    "product_web_site": "http://www.topibd.com",
+    "exe_name": "top-dfm",
+    "exe_path": "qt5.6.3-win32-msvc2015\\bin\\",
+    "shortcut": [
+        {
+            "shortcut_name": "TopDFM",
+            "shortcut_exe_name": "top-dfm"
+        },
+        {
+            "shortcut_name": "TopCAM",
+            "shortcut_exe_name": "pdm-workflow"
+        }
+    ],
+    "source_dir": "F:/svn/topdfm/dist/topikm",
+    "include_files": [
+        "./config/*.cfg",
+        "./qt5.6.3-win32-msvc2015/bin/**/*",
+        "./qt5.6.3-win32-msvc2015/language/**/*",
+        "./qt5.6.3-win32-msvc2015/resource/**/*",
+        "./template/*"
+    ],
+    "exclude_files": [
+        "./**/*.lib",
+        "./**/*.pdb",
+        "./**/*.exp"
+    ]
+}
